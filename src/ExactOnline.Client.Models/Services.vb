@@ -107,6 +107,7 @@ Public Class Services
 		Services.Add("SalesEntryLine", "SalesEntry/SalesEntryLines")
 		Services.Add("SalesInvoice", "SalesInvoice/SalesInvoices")
 		Services.Add("SalesInvoiceLine", "SalesInvoice/SalesInvoiceLines")
+		Services.Add("SalesItemPrice", "logistics/SalesItemPrices")
 		Services.Add("SalesOrder", "SalesOrder/SalesOrders")
 		Services.Add("SalesOrderID", "SalesInvoice/SalesOrderID")
 		Services.Add("SalesOrderLine", "SalesOrder/SalesOrderLines")

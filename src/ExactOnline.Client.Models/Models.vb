@@ -3471,6 +3471,40 @@ Public Class Item
 	Public Property [UnitType] As String
 End Class
 
+
+<SupportedActionsSDK(True, True, True, True)>
+<DataServiceKey("ID")>
+Public Class SalesItemPrice
+	Public Property [ID] As Guid
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [Created] As DateTime?
+	<SDKFieldType(FieldType.ReadOnly)>
+    Public Property [Creator] As Guid?
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [CreatorFullName] As String
+	Public Property [Currency] As String
+	Public Property [DefaultItemUnit] As String
+	Public Property [DefaultItemUnitDescription] As String
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [Division] As Int32?
+	Public Property [EndDate] As DateTime?
+	Public Property [Item] As Guid?
+	Public Property [ItemCode] As String
+	Public Property [ItemDescription] As String
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [Modified] As DateTime?
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [Modifier] As Guid?
+	<SDKFieldType(FieldType.ReadOnly)>
+	Public Property [ModifierFullName] As String
+	Public Property [NumberOfItemsPerUnit] As Double?
+	Public Property [Price] As Double?
+	Public Property [StartDate] As DateTime?
+	Public Property [Unit] As String
+	Public Property [UnitDescription] As String
+End Class
+
+
 <SupportedActionsSDK(False, True, False, False)>
 <DataServiceKey("ID")>
 Public Class ItemGroup
